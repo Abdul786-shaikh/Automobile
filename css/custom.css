@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body
+{
+    margin:0;
+    padding:0;
+    font-family:'Open Sans',sans-serif;
+    
+}
+
+#logo{
+	height:40px;
+	width:50px;
+}
+
+
+.sci,.sci1{
+	display:inline-block;
+    margin:0;
+    padding:0px;
+}
+.sci,.sci1{
+	padding:10px 50px 2px 50px;
+    font-size: 1.2rem;
+}
+
+.cpryt{
+	color:white;
+	font-size:1.2rem;
+	
+}
+.brand{
+    width:80px;
+    height:55px;
+    background: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+   
+}
+.brand a img{
+    
+    transition: 0.5s;
+}
+.brand:hover a img{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.nav-item{
+    width:140px;
+    height:48px;
+    transition: 1s;
+    padding:3px;
+    margin: 0 15px;
+    position: relative;
+   
+    transition: 0.5s;
+}
+.nav-item:hover{
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.nav-link{
+    font-size:17px;
+    font-weight: 100;
+     color:#fff;
+    transition: 1s;
+   
+    
+}
+.nav-item:hover .nav-link{
+    color: #000;
+    font-size: 17px;
+    transition: 1s;
+    transition-delay: 0.3s
+}
+.ac{
+    width:140px;
+    height:48px;
+    transition: 1s;
+    padding:3px;
+    margin: 0 15px;
+    position: relative;
+     background: #008CBA;
+    border-radius: 10px;
+   
+}
+.ac:hover{
+    background: #fff;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.active{
+    font-size: 17px;
+    color:#fff;
+   
+   
+    transition: 1s;
+    transition-delay: 0.2s
+}
+.ac:hover .active{
+    color:#000 ;
+    font-size: 17px;
+     font-style: ;
+    transition: 1s;
+    transition-delay: 0.3s
+}
+
+
+
+ 
